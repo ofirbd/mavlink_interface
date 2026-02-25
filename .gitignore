@@ -1,0 +1,75 @@
+### --- C++ (General / CMake / Visual Studio) ---
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Static and Dynamic Libraries
+*.gch
+*.pch
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out / *.app
+
+# Build directories
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
+cmake_install.cmake
+install/
+
+# IDE Specific (VS Code / Visual Studio)
+.vscode/
+.vs/
+*.vcxproj
+*.sln
+*.user
+
+### --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+/tmp
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+bin/
+Lib/
+include/
+
+# Package management
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+### --- System / General ---
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
